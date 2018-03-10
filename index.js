@@ -26,6 +26,9 @@ Plugin.prototype.apply = function (compiler) {
       if(configJson.opts.hasOwnProperty('tutorials'))
         configJson.opts.tutorials = path.join(self.rootPath, configJson.opts.tutorials);
 
+      if(configJson.opts.hasOwnProperty('readme'))
+        configJson.opts.readme = path.join(self.rootPath, configJson.opts.readme);
+
       if(configJson.opts.hasOwnProperty('destination'))
         configJson.opts.destination = path.join(self.rootPath, configJson.opts.destination);
     }
