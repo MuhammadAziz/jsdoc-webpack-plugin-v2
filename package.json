@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/geexup/jsdoc-webpack-plugin-v2#readme",
   "dependencies": {
-    "jsdoc": "3.4.0"
+    "jsdoc": "3.5.5"
   }
 }
